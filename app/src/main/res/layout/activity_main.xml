@@ -10,7 +10,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/android"/>
+        android:src="@drawable/android"
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,6 +19,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:text="@string/Happy"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-ligth"
+        android:textColor="	#f7f7f7"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +29,9 @@
         android:text="@string/celebrate"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        />
+        android:textSize="36sp"
+        android:textColor="	#f7f7f7"
+        android:fontFamily="sans-serif-ligth"/>
 
 
 </RelativeLayout>
